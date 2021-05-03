@@ -1,14 +1,14 @@
 <template>
-  <div class="home">
-    <van-button type="primary">主要按钮111111111</van-button>
+  <div>
+    home页面
   </div>
 </template>
 
-<script lang="ts">
-  import { Button } from "vant";
-  import { defineComponent } from "vue";
+<script>
+  export default {
 
-  export default defineComponent({
-    name: "Home",
-  });
+  }
 </script>
+
+<style>
+</style>

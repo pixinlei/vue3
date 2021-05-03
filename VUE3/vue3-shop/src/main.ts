@@ -5,5 +5,8 @@ import store from './store'
 // import 'lib-flexible/flexible'
 import Vant from 'vant';
 import 'vant/lib/index.css';
+import Vue from 'vue';
 
-createApp(App).use(store).use(router).use(Vant).mount('#app')
+// Vue.use(Vant);
+
+createApp(App).use(store).use(router).mount('#app')
